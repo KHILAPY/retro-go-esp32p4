@@ -209,7 +209,6 @@ ROM 必须用 [LCD-Game-Shrinker](https://github.com/bzhxx/LCD-Game-Shrinker) �
 | 目标平台 | ESP-IDF 版本 |
 |----------|-------------|
 | ESP32-P4 | 5.5 或更高 |
-| 其他 ESP32 | 4.4 ~ 5.3 |
 
 ### 构建命令
 
@@ -284,6 +283,5 @@ python rg_tool.py install     # 安装镜像到设备
 
 | 组件 | 许可证 |
 |------|--------|
-| 主项目 | GPLv2 |
 | fmsx/components/fmsx | 自定义非商业许可证 |
 | handy-go/components/handy | zlib |
