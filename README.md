@@ -2,18 +2,6 @@
 
 基于 Retro-Go GBA 开发版本的修改版，针对 ESP32-P4 平台进行深度优化和功能扩展。
 
-## 目录
-
-- [项目简介](#项目简介)
-- [安装指南](#安装指南)
-- [使用说明](#使用说明)
-- [常见问题](#常见问题)
-- [开发进度](#开发进度)
-- [开发指南](#开发指南)
-- [致谢](#致谢)
-- [许可证](#许可证)
-
----
 
 ## 项目简介
 
@@ -102,16 +90,6 @@ python rg_tool.py build --target esp32p4 --with-networking
 
 > 💡 基于文件名的格式响应更快，推荐使用。
 
-### BIOS 文件
-
-| 平台 | 路径 |
-|------|------|
-| GB | `/retro-go/bios/gb_bios.bin` |
-| GBC | `/retro-go/bios/gbc_bios.bin` |
-| FDS | `/retro-go/bios/fds_bios.bin` |
-| MSX | `/retro-go/bios/msx/` |
-
-MSX 所需文件：`MSX.ROM`、`MSX2.ROM`、`MSX2EXT.ROM`、`MSX2P.ROM`、`MSX2PEXT.ROM`、`FMPAC.ROM`、`DISK.ROM`、`MSXDOS2.ROM`、`PAINTER.ROM`、`KANJI.ROM`
 
 ### Game & Watch
 
@@ -173,12 +151,6 @@ ROM 必须用 [LCD-Game-Shrinker](https://github.com/bzhxx/LCD-Game-Shrinker) �
 - SRAM 格式与 VisualBoyAdvance 兼容
 - 恢复游戏时优先使用存档
 
-### ZIP 文件
-
-- ZIP 归档应仅包含一个 ROM 文件
-- 大型 ROM 可能因内存限制加载失败
-
----
 
 ## 开发进度
 
